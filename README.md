@@ -7,4 +7,4 @@
 HTML5, CSS3, GRID, FLEX, БЭМ
 
 ### Github Pages
-https://nika2pl.github.io/
+https://nika2pl.github.io/russian-travel/
