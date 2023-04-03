@@ -7,10 +7,3 @@
   padding: 0;
   text-rendering: optimizeLegibility;
 }
-
-@media screen and (max-width: 768px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 1.1;
-  }
-}

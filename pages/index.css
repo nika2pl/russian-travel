@@ -1,5 +1,5 @@
-@import url(../styles/normalize.css);
-@import url(../InterWeb/inter.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
 @import url(../blocks/page/page.css);
 
 /* content */
@@ -27,6 +27,7 @@
 @import url(../blocks/intro/__fact/intro__fact.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url('../blocks/intro/__article/intro__article.css');
 
 /* photo-grid section */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -40,6 +41,7 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__website/place__website.css);
+@import url('../blocks/place/__text/place__text.css');
 @import url(../blocks/places/places.css);
 
 /* cover section */
