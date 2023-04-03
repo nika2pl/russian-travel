@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item {
-    weight: 284px;
+    width: 284px;
     height: 213px;
   }
 }
