@@ -4,5 +4,13 @@
 }
 
 .header__item:last-of-type {
-  margin: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 635px) { 
+  .header__item {
+      font-size: 18px;
+      line-height: 111%;
+      margin-bottom: 8px;
+  }
 }

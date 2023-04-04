@@ -11,17 +11,24 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer {
-    width: calc(100% - 2*24px);
+      width: 90.625vw;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .footer {
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 16px;
+      width: 93.75%;
+      padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 720px) { 
+  .footer {
+      width: 90%;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-top: 64px;
   }
 }
