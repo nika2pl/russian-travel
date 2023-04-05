@@ -2,4 +2,23 @@
   max-width: 100%;
   margin: 0;
   padding: 0;
+  padding-top: 64px;
+}
+
+@media (max-width: 1280px) {
+  .lead__image {
+    padding-top: calc((100vw - 1024px) / (1280 - 1024)*(64 - 53) + 53px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    padding-top: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__image {
+    padding-top: calc((100vw - 320px) / (768 - 320)*(53 - 40) + 40px);
+  }
 }
